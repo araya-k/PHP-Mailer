@@ -1,7 +1,7 @@
 <?php
-require("/home/emailwor/public_html/src/Exception.php");
-require("/home/emailwor/public_html/src/PHPMailer.php");
-require("/home/emailwor/public_html/src/SMTP.php");
+require("./src/Exception.php");
+require("./src/PHPMailer.php");
+require("./src/SMTP.php");
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 $mail->SMTPDebug = 0;                                                   // Enable verbose debug output
 $mail->isSMTP();                                                        // Set mailer to use SMTP
